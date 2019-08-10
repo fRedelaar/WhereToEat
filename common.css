@@ -1,21 +1,26 @@
 /* FONT 
-font-family: 'Barlow', sans-serif;
 font-family: 'Roboto', sans-serif;
+font-family: 'Crimson Text', serif;
 */
 
 body {
 	background-color: white;
-	margin: 0xp;
+	margin: 0px 0px 0px 0px;
 }
 
 h1 {
-	color: #FF1493
+	color: #FF1493;
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
 }
 
 .header {
   text-align: center;
   font-size: 27px;
-  height: 110px;
+  height: 116px;
 }
 
 a:link {
@@ -53,5 +58,87 @@ a {
 .logoheader{
 	height:  110px;
 	top: 45px;
+    position: relative;
+}
+
+
+.headerphoto{
+	top: 10px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.headerimage {
+width: 100%
+}
+
+.headertextbox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/* Centered text */
+.headertext {
+  	text-transform: uppercase;
+  	margin: 0;
+  	font-size: 4.5rem;
+  	white-space: nowrap;
+  	font-weight: bold;
+	font-family: 'Crimson Text', serif;
+	opacity: 1;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 15px 10px 0px 10px
+}
+
+.headertext2 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-family: 'Crimson Text', serif;
+  opacity: 1;
+  /*background-color: rgba(238, 0, 140, 0.55); */
+  padding: 10px 0px 10px 0px;
+}
+
+
+/* FOOTER */ 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  height: 60px; 
+  font-weight: bold;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  border-radius: 1px;
+  border-color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logofooter{
+	height:  66px;
+	top: 0px;
     position: relative;
 }
