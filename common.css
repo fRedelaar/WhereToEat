@@ -1,3 +1,8 @@
+/* FONT 
+font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 body {
 	background-color: white;
 	margin: 0xp;
@@ -9,8 +14,6 @@ h1 {
 
 .header {
   text-align: center;
-  background: #9edeff;
-  color: black;
   font-size: 30px;
   height: 110px;
 }
@@ -42,7 +45,7 @@ a:active {
 a {
 	padding: 0px 20px 0px 10px;
 	font-size: 0.7em;
-	font-family: "arial";
+	font-family: 'Roboto', sans-serif;
 	position: relative;
 	top: -40px;
 }
