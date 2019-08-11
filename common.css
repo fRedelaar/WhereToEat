@@ -141,7 +141,7 @@ width: 100%
 
 #footer {
    position:absolute;
-   bottom:0;
+   bottom: -29px;
    width:100%;
    height:0px;   /* Height of the footer */
    background-color: #EE008C;
