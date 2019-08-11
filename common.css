@@ -3,14 +3,21 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Crimson Text', serif;
 */
 
+
+
 body {
 	background-color: white;
 	margin: 0px 0px 0px 0px;
 }
 
 h1 {
-	color: #FF1493;
+	color: #FF1493 !important;
 	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	color: #FF1493 !important;
+	font-weight: bold !important;
 }
 
 p{
@@ -20,7 +27,7 @@ p{
 .header {
   text-align: center;
   font-size: 27px;
-  height: 116px;
+  height: 103px;
 }
 
 a:link {
@@ -52,12 +59,11 @@ a {
 	font-size: 0.7em;
 	font-family: 'Roboto', sans-serif;
 	position: relative;
-	top: -40px;
+	/*top: -40px;*/
 }
 
 .logoheader{
 	height:  110px;
-	top: 45px;
     position: relative;
 }
 
@@ -105,40 +111,34 @@ width: 100%
   padding: 10px 0px 10px 0px;
 }
 
+.img-thumbnail{
+	position: absolute;
+	width: 90%;
+}
+
+
 
 /* FOOTER */ 
 .footer {
-  position: absolute;
+  position: sticky;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 0px;
-  height: 60px; 
-  font-weight: bold;
-  font-family: 'Crimson Text', serif;
-  font-size: 1em;
-  border-radius: 1px;
-  border-color: black;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .logofooter{
 	height:  66px;
 	top: 0px;
     position: relative;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 770px) {
+  .hidm {
+visibility: hidden;
+  }
 }
