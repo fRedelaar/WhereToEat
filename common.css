@@ -122,6 +122,24 @@ width: 100%
 
 
 
+
+
+/* JUMBOTRON */
+.jumbohtext{
+text-align: center;
+color: white !important;
+}
+
+.jumbomtext{
+text-align: center;
+font-family: 'Crimson Text', serif;
+}
+
+.jumbotron {
+	background-image: linear-gradient(to right top, #ee008c, #f52980, #fa4176, #fc566e, #fc6868);
+}
+
+
 /* FOOTER */ 
 .footer {
   position: sticky;
@@ -153,4 +171,41 @@ width: 100%
   .hidm {
 visibility: hidden;
   }
+}
+
+
+.butt {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 1s;
+  cursor: pointer;
+  left: 50%
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: white; 
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.middle{
+	width: 100%
+	position: absolute;
+	text-align: center;
 }
