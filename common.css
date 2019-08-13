@@ -280,3 +280,12 @@ color: #004d40;
 }
 
 
+
+.navbar {
+   padding: 1.5rem 2rem !important;
+}
+
+.navbar-toggler-icon {
+    width: 2.5em !important;
+    height: 2.5em !important;
+}
