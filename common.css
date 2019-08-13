@@ -84,9 +84,13 @@ a {
     text-align: center;
 }
 
-.headerimage {
+.headerimagePC {
 width: 100%
 }
+.headerimagemobile {
+width: 100%
+}
+
 
 .headertextbox{
   position: absolute;
@@ -203,12 +207,17 @@ display: none;
 }
 
 
-@media only screen and (max-width: 90px) {
-  .headerimage {
-  	
+@media only screen and (max-width: 990px) {
+  .headerimagePC {
+  	display: none
   }
 }
 
+@media only screen and (min-width: 990px) {
+  .headerimagemobile {
+display: none;
+  }
+}
 
 @media only screen and (min-width: 990px) {
   .mobieltje {
