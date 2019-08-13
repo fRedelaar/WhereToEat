@@ -215,13 +215,54 @@ display: none;
 .headertext {
     font-size: 6.5rem !important;
   }
+
+
+.headertext2 {
+    font-size: 2.5rem !important;
 }
+
+.h2, h2 {
+    font-size: 4rem !important;
+}
+
+.col-sm-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+
+p {
+    font-size: -webkit-xxx-large !important;
+}
+
+
+.h4, h4 {
+    font-size: 2.5rem !important;
+}
+
+.jumbohtext {
+  font-size: 4.5rem !important;
+}
+
+
+}
+.logoheader {
+    height: 225px;
+}
+
+
+.butt {
+      font-size: 49px !important;
+      margin: 40px 0px 0px 0px !important;
+}
+
+}
+
 
 @media only screen and (min-width: 990px) {
   .headerimagemobile {
 display: none;
 }
-
 }
 
 @media only screen and (min-width: 990px) {
