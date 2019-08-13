@@ -76,6 +76,7 @@ a {
 
 
 .headerphoto{
+	
 	top: 10px;
     height: auto;
     position: relative;
@@ -83,30 +84,21 @@ a {
     text-align: center;
 }
 
-.headerimage {
+.headerimagePC {
+width: 100%
+}
+.headerimagemobile {
 width: 100%
 }
 
-.headertextboxcontainer{
+
+.headertextbox{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-}
-
-
-.headertextbox{
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 5.5rem;
-  white-space: nowrap;
-  font-weight: bold;
-  font-family: 'Crimson Text', serif;
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.55);
-  padding: 0px 15px 10px 15px;
 }
 
 /* Centered text */
@@ -117,35 +109,10 @@ width: 100%
   	white-space: nowrap;
   	font-weight: bold;
 	font-family: 'Crimson Text', serif;
-  opacity: 1;
-  overflow: hidden;
+	opacity: 1;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 15px 10px 0px 10px
 }
-
-.headertext.animation{
-
-  background: linear-gradient(90deg, #FFF 20%, #FFF 40%, #EE008C 60%, #FFF 80%);
-  background-color: rgba(0, 0, 0, 0.55) !important;
-  background-size: 250% auto;
-  color: #000;
-  background-clip: text;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  animation: shine 5s linear infinite;
-  animation-delay: 1s;  
-  animation-play-state: running;
-}
-
-  
-  @keyframes shine {
-    to {
-      background-position: -200% center;
-    }
-}
-
-
-
 
 .headertext2 {
   margin: 0;
@@ -187,7 +154,7 @@ width: 100%
 .jumbomtext{
 	text-align: center;
 	font-family: 'Crimson Text', serif;
-	font-size: large;
+	font-size: 1.15em;
 }
 
 .jumbooo {
@@ -233,21 +200,31 @@ border-radius: 0px !important;
 
 /* MEDIA */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 990px) {
   .hidm {
 display: none;
   }
 }
 
-/*
-@media only screen and (max-width: 1200px) {
-  .headerimage {
-  	height: 100%;
+
+@media only screen and (max-width: 990px) {
+  .headerimagePC {
+  	display: none
+  }
+
+.headertext {
+    font-size: 6.5rem !important;
   }
 }
-*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 990px) {
+  .headerimagemobile {
+display: none;
+}
+
+}
+
+@media only screen and (min-width: 990px) {
   .mobieltje {
 display: none;
   }
@@ -305,14 +282,14 @@ color: #004d40;
 }
 
 .middle{
-	width: 100%
-	position: absolute;
+	width: 100%;
+	position: relative;
 	text-align: center;
 }
 
 .middle2 {
-	width: 100%
-	position: absolute;
+	width: 100%;
+	position: relative;
 	text-align: center;
 	margin-top: -50px;
 }
@@ -340,4 +317,12 @@ color: #004d40;
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
     font-size: 4em !important; 
+}
+
+.dropdown-item {
+    font-size: 3.5em !important;
+}
+
+.pos{
+	position: relative;
 }
