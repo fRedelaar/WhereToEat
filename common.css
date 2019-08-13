@@ -141,22 +141,26 @@ width: 100%
 
 /* JUMBOTRON */
 .jumbohtext{
-text-align: center;
-color: white !important;
+	text-align: center;
+	color: white !important;
+
 }
 
 .jumbomtext{
-text-align: center;
-font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-size: large;
 }
 
 .jumbooo {
 	background-image: linear-gradient(to right top, #ee008c, #f52980, #fa4176, #fc566e, #fc6868);
+    border-radius: 0rem;
 }
 
 .jumbaaa {
-background-image: linear-gradient(to right top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
-padding-top: 0px; 
+	background-image: linear-gradient(to right top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+	padding-top: 0px; 
+    border-radius:  0rem;
 }
 
 
@@ -192,6 +196,14 @@ padding-top: 0px;
 display: none;
   }
 }
+
+/*
+@media only screen and (max-width: 1200px) {
+  .headerimage {
+  	height: 100%;
+  }
+}
+*/
 
 @media only screen and (min-width: 1200px) {
   .mobieltje {
