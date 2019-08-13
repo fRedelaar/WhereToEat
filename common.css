@@ -76,6 +76,7 @@ a {
 
 
 .headerphoto{
+	
 	top: 10px;
     height: auto;
     position: relative;
@@ -195,21 +196,21 @@ border-radius: 0px !important;
 
 /* MEDIA */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 990px) {
   .hidm {
 display: none;
   }
 }
 
-/*
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 90px) {
   .headerimage {
-  	height: 100%;
+  	
   }
 }
-*/
 
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 990px) {
   .mobieltje {
 display: none;
   }
@@ -302,4 +303,12 @@ color: #004d40;
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
     font-size: 4em !important; 
+}
+
+.dropdown-item {
+    font-size: 3.5em !important;
+}
+
+.pos{
+	position: relative;
 }
