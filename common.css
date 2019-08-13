@@ -298,3 +298,8 @@ color: #004d40;
     color: rgba(0,0,0,.9);
     font-size: 2em !important;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 2em !important; 
+}
