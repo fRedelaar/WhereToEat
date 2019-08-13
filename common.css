@@ -163,7 +163,11 @@ width: 100%
     border-radius:  0rem;
 }
 
+.jumbotron{
 
+border-radius: 0px !important;
+
+}
 /* FOOTER */ 
 .footer {
   position: sticky;
@@ -276,16 +280,3 @@ color: #004d40;
 }
 
 
-
-.navbar {
-    padding: 1.5rem 1rem !important;
-}
-
-.navbar-toggler-icon {
-	width: 2.5em !important;
-    height: 2.5em !important;
-}
-
-.navbar-brand {
-    font-size: 2.6rem !important;
-}
