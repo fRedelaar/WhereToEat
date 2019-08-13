@@ -110,7 +110,7 @@ width: 100%
   	font-weight: bold;
 	font-family: 'Crimson Text', serif;
 	opacity: 1;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.65);
     padding: 15px 10px 0px 10px
 }
 
@@ -364,4 +364,13 @@ color: #004d40;
 
 .pos{
 	position: relative;
+}
+
+.oldevent {
+  opacity: 0.4;
+}
+
+.oldevent:hover {
+  opacity: 1;
+    transition: opacity .6s;
 }
