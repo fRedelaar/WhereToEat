@@ -105,7 +105,7 @@ width: 100%
 .headertext {
   	text-transform: uppercase;
   	margin: 0;
-  	font-size: 5.5rem;
+  	font-size: 4.5rem;
   	white-space: nowrap;
   	font-weight: bold;
 	font-family: 'Crimson Text', serif;
@@ -116,7 +116,7 @@ width: 100%
 
 .headertext2 {
   margin: 0;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   font-family: 'Crimson Text', serif;
   opacity: 1;
   /*background-color: rgba(238, 0, 140, 0.55); */
@@ -177,7 +177,7 @@ border-radius: 0px !important;
 .footer {
   position: sticky;
   right: 0;
-  bottom: -29px;
+  bottom: -120px;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
@@ -191,11 +191,12 @@ border-radius: 0px !important;
 }
 
 #footer {
-    position: absolute;
-    /* bottom: 0px; */
-    width: 100%;
-    height: 75px;
-    background-color: #dbdbdb;
+    position: relative;
+   bottom: -29px;
+   width:100%;
+   height:0px;   /* Height of the footer */
+   background-color: #EE008C;
+   top:200px;
 }
 
 /* MEDIA */
@@ -254,15 +255,14 @@ p {
       margin: 40px 0px 0px 0px !important;
 }
 
-#footer{
-  height: 600px !important;
 }
+  .col-sm-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
 
-.instab{
-   margin:0px 0px 0px 240px;
 }
-}
-
 
 @media only screen and (min-width: 990px) {
   .headerimagemobile {
@@ -411,7 +411,11 @@ color: #004d40;
 
 .dropdown:hover .dropbtn 
 
-.thin {
-  padding: 0px !important;
+@media (min-width: 576px){ 
+  .col-sm-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
 }
-
