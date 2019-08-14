@@ -253,6 +253,12 @@ p {
       font-size: 49px !important;
       margin: 40px 0px 0px 0px !important;
 }
+.col-sm-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
 
 }
 
