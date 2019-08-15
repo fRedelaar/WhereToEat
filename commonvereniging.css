@@ -260,13 +260,19 @@ p {
     max-width: 100% !important;
 }
 
-}
 
+
+}
 
 @media only screen and (min-width: 990px) {
   .headerimagemobile {
 display: none;
 }
+
+
+.instab {
+    margin: 0px 0px 0px 240px;
+  }
 }
 
 @media only screen and (min-width: 990px) {
@@ -366,6 +372,12 @@ color: #004d40;
 
 .dropdown-item {
     font-size: 3.5em !important;
+}
+
+
+.instab {
+    margin: 0px 0px 0px 240px;
+  }
 }
 
 .pos{

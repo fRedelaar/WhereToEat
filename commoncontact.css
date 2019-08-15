@@ -211,6 +211,10 @@ display: none;
   .headerimagePC {
   	display: none
   }
+  
+  .instab {
+    margin: 0px 0px 0px 240px;
+  }
 
 .headertext {
     font-size: 6.5rem !important;
