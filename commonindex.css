@@ -3,6 +3,30 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Crimson Text', serif;
 */
 
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+
+@font-face {
+  font-family: 'Jenthill';
+  src: url('font/Jenthill.ttf'); /* IE9 Compat Modes */
+  src: url('font/Jenthill.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/Jenthill.ttf') format('woff2'), /* Super Modern Browsers */
+       url('font/Jenthill.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('font/Jenthill.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('font/OpenSans-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('font/OpenSans-Bold.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/OpenSans-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+       url('font/OpenSans-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('font/OpenSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 #containersite {
    min-height:100%;
    position:relative;
@@ -20,7 +44,7 @@ h1 {
 }
 
 h2 {
-	color: #FF1493 !important;
+	color: #575757 !important;
 	font-weight: bold !important;
 }
 
@@ -31,7 +55,7 @@ p{
 .header {
   text-align: center;
   font-size: 27px;
-  height: 103px;
+  height: 115px;
 }
 
 a:link {
@@ -51,8 +75,9 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: black !important;
-    text-decoration: none !important;
+  color: #575757 !important;
+  text-decoration: none !important;
+  
 }
 
 /* selected link */
@@ -63,10 +88,9 @@ a:active {
 
 a {
 	padding: 0px 20px 0px 10px;
-	font-size: 0.7em;
-	font-family: 'Roboto', sans-serif;
+	font-size: 0.75em;
+	font-family: 'Ubuntu', sans-serif;
 	position: relative;
-	/*top: -40px;*/
 }
 
 .logoheader{
@@ -77,7 +101,7 @@ a {
 
 .headerphoto{
 	
-	top: 10px;
+	top: 23px;
     height: auto;
     position: relative;
     width: 100%;
@@ -105,10 +129,10 @@ width: 100%
 .headertext {
   	text-transform: uppercase;
   	margin: 0;
-  	font-size: 5.5rem;
+  	font-size: 7rem;
   	white-space: nowrap;
   	font-weight: bold;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Jenthill', serif;
 	opacity: 1;
     background-color: rgba(0, 0, 0, 0.65);
     padding: 15px 10px 0px 10px
@@ -116,8 +140,8 @@ width: 100%
 
 .headertext2 {
   margin: 0;
-  font-size: 2.1rem;
-  font-family: 'Crimson Text', serif;
+  font-size: 3.1rem;
+  font-family: 'Ubuntu', serif;
   opacity: 1;
   /*background-color: rgba(238, 0, 140, 0.55); */
   padding: 10px 0px 10px 0px;
@@ -202,7 +226,7 @@ border-radius: 0px !important;
 @media only screen and (max-width: 990px) {
   .hidm {
 display: none;
-  }
+font-family: 'OpenSans-Bold';  }
 }
 
 
@@ -395,6 +419,7 @@ color: #004d40;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-size: 0.7em;
 }
 
 .dropdown-content a {
@@ -404,7 +429,10 @@ color: #004d40;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 
