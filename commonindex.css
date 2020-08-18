@@ -4,6 +4,7 @@ font-family: 'Crimson Text', serif;
 */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
 
 
@@ -33,9 +34,7 @@ font-family: 'Crimson Text', serif;
 }
 
 body {
-	background-color: white;
 	margin: 0px 0px 0px 0px;
-	 padding-bottom:60px;   /* Height of the footer */
 }
 
 h1 {
@@ -44,7 +43,7 @@ h1 {
 }
 
 h2 {
-	color: #575757 !important;
+	color: #0C1B33 !important;
 	font-weight: bold !important;
 }
 
@@ -55,7 +54,9 @@ p{
 .header {
   text-align: center;
   font-size: 27px;
+  color: white;
   height: 115px;
+  background-color: #0C1B33;
 }
 
 a:link {
@@ -64,18 +65,18 @@ a:link {
 
 /* unvisited link */
 a:link {
-  color: black !important;
+  color: white;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: white;
     text-decoration: none !important;
 }
 
 /* mouse over link */
 a:hover {
-  color: #575757 !important;
+  color: #B2AA8E !important;
   text-decoration: none !important;
   
 }
@@ -89,7 +90,8 @@ a:active {
 a {
 	padding: 0px 20px 0px 10px;
 	font-size: 0.75em;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto Slab', serif;
+  font-weight: 500;
 	position: relative;
 }
 
@@ -98,11 +100,15 @@ a {
     position: relative;
 }
 
+.stock {
+    object-fit: cover;
+    width: 533px;
+    height:  300px;
+    position: relative;
+}
 
 .headerphoto{
-	
-	top: 23px;
-    height: auto;
+	  height: auto;
     position: relative;
     width: 100%;
     text-align: center;
@@ -141,10 +147,12 @@ width: 100%
 .headertext2 {
   margin: 0;
   font-size: 3.1rem;
-  font-family: 'Ubuntu', serif;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
   opacity: 1;
   /*background-color: rgba(238, 0, 140, 0.55); */
   padding: 10px 0px 10px 0px;
+  color: #B2AA8E;
 }
 
 .img-thumbnail{
@@ -193,18 +201,18 @@ width: 100%
 }
 
 .jumbotron{
-
+margin: 10px 0px 0px 0px;
 border-radius: 0px !important;
 
 }
 /* FOOTER */ 
-.footer {
-  position: sticky;
+#footer {
+  position: relative;
   right: 0;
-  bottom: -29px;
+  bottom: 0px;
   left: 0;
-  padding: 1rem;
-  background-color: #efefef;
+  padding: 2rem;
+  background-color: #0C1B33;
   text-align: center;
 }
 
@@ -214,12 +222,11 @@ border-radius: 0px !important;
     position: relative;
 }
 
-#footer {
-    position: absolute;
-    /* bottom: 0px; */
-    width: 100%;
-    height: 85px;
+.footertext {
+  color: #B2AA8E;
 }
+
+
 
 /* MEDIA */
 
@@ -354,6 +361,8 @@ color: #004d40;
 	width: 100%;
 	position: relative;
 	text-align: center;
+  color:#B2AA8E !important;
+  text-decoration: underline;
 }
 
 .middle2 {
