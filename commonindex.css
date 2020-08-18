@@ -45,6 +45,7 @@ h1 {
 h2 {
 	color: #0C1B33 !important;
 	font-weight: bold !important;
+  padding: 0px 20px 0px 10px !important;
 }
 
 p{
@@ -269,6 +270,7 @@ font-family: 'OpenSans-Bold';  }
 
 .h2, h2 {
     font-size: 4rem !important;
+    padding: 0px 20px 0px 10px !important;
 }
 
 .col-sm-6 {
