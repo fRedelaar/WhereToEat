@@ -530,8 +530,6 @@ height: 24rem;
   font-weight: bold;
   font-size: 1.4rem;
   color: #B2AA8E !important;
-
-
 }
 
 .lijsttekst{
@@ -544,4 +542,81 @@ height: 24rem;
   padding: 0px 50px 0px 50px;
   margin: 0px 50px 0px 50px;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 990px) {
+
+.bg-light {
+
+}
+.felicwrap {
+background-color: white !important;
+margin: -9rem 3rem 2rem 3rem
+}
+
+.titel{
+  margin: 0;
+  font-size: 3.6rem;
+  opacity: 1;
+  color: #0C1B33 !important;
+  width: 100%;
+  padding: 10px 0px 40px 0px;
+  position: relative;
+  text-align: center;
+}
+
+#fancy-header{
+height: 24rem;
+}
+
+.stock {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
+
+.bold {
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    font-size: 2.5rem !important;
+}
+
+
+.checkit{
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 2.2rem !important;
+}
+
+#footer{
+  height:300px !important;
+}
+.footertext{
+  font-size: 2.3rem!important;
+}
+}
+
+.lijsttitel{
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 2.9rem !important;
+  color: #B2AA8E !important;
+}
+
+.lijsttekst{
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  font-size: 2.3rem !important;
+}
+
+.bron{
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  font-size: 2rem !important;
+}
+
+  }
 }
