@@ -10,21 +10,21 @@ font-family: 'Crimson Text', serif;
 
 @font-face {
   font-family: 'Jenthill';
-  src: url('../font/Jenthill.ttf'); /* IE9 Compat Modes */
-  src: url('../font/Jenthill.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/Jenthill.ttf') format('woff2'), /* Super Modern Browsers */
-       url('../font/Jenthill.ttf') format('woff'), /* Pretty Modern Browsers */
-       url('../font/Jenthill.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('font/Jenthill.ttf'); /* IE9 Compat Modes */
+  src: url('font/Jenthill.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/Jenthill.ttf') format('woff2'), /* Super Modern Browsers */
+       url('font/Jenthill.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('font/Jenthill.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url('../font/OpenSans-Bold.ttf'); /* IE9 Compat Modes */
-  src: url('../font/OpenSans-Bold.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/OpenSans-Bold.ttf') format('woff2'), /* Super Modern Browsers */
-       url('../font/OpenSans-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
-       url('../font/OpenSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('font/OpenSans-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('font/OpenSans-Bold.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/OpenSans-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+       url('font/OpenSans-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('font/OpenSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
@@ -34,21 +34,22 @@ font-family: 'Crimson Text', serif;
 }
 
 body {
-  margin: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 h1 {
-  color: white !important;
-  font-family: 'Roboto', sans-serif;
+	color: white !important;
+	font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-  color: #0C1B33 !important;
-  font-weight: bold !important;
+	color: #0C1B33 !important;
+	font-weight: bold !important;
+  padding: 0px 20px 0px 10px !important;
 }
 
 p{
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -104,27 +105,27 @@ a:active {
 }
 
 a {
-  padding: 0px 20px 0px 10px;
-  font-size: 0.75em;
-  font-family: 'Roboto Slab', serif;
+	padding: 0px 20px 0px 10px;
+	font-size: 0.75em;
+	font-family: 'Roboto Slab', serif;
   font-weight: 500;
-  position: relative;
+	position: relative;
 }
 
 .logoheader{
-  height:  110px;
+	height:  110px;
     position: relative;
 }
 
 .stock {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+    object-fit: cover;
+    width: 533px;
+    height:  300px;
+    position: relative;
 }
 
 .headerphoto{
-    height: auto;
+	  height: auto;
     position: relative;
     width: 100%;
     text-align: center;
@@ -149,13 +150,13 @@ width: 100%
 
 /* Centered text */
 .headertext {
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 7rem;
-    white-space: nowrap;
-    font-weight: bold;
-  font-family: 'Jenthill', serif;
-  opacity: 1;
+  	text-transform: uppercase;
+  	margin: 0;
+  	font-size: 7rem;
+  	white-space: nowrap;
+  	font-weight: bold;
+	font-family: 'Jenthill', serif;
+	opacity: 1;
     background-color: rgba(0, 0, 0, 0.65);
     padding: 15px 10px 0px 10px
 }
@@ -172,15 +173,15 @@ width: 100%
 }
 
 .img-thumbnail{
-  position: absolute;
-  width: 90%;
-  height: 263.25px !important;
-  margin-left: 10px !important;
+	position: absolute;
+	width: 90%;
+	height: 263.25px !important;
+	margin-left: 10px !important;
 }
 
 
 .newevent {
-  position: absolute !important;
+	position: absolute !important;
     height: 263px;
     /* padding: 4px; */
     padding: 4px;
@@ -194,25 +195,25 @@ width: 100%
 
 /* JUMBOTRON */
 .jumbohtext{
-  text-align: center;
-  color: white !important;
+	text-align: center;
+	color: white !important;
 
 }
 
 .jumbomtext{
-  text-align: center;
-  font-family: 'Crimson Text', serif;
-  font-size: 1.15em;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.15em;
 }
 
 .jumbooo {
-  background-image: linear-gradient(to right top, #ee008c, #f52980, #fa4176, #fc566e, #fc6868);
+	background-image: linear-gradient(to right top, #ee008c, #f52980, #fa4176, #fc566e, #fc6868);
     border-radius: 0rem;
 }
 
 .jumbaaa {
-  background-image: linear-gradient(to right top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
-  padding-top: 0px; 
+	background-image: linear-gradient(to right top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+	padding-top: 0px; 
     border-radius:  0rem;
 }
 
@@ -233,8 +234,8 @@ border-radius: 0px !important;
 }
 
 .logofooter{
-  height:  66px;
-  top: 0px;
+	height:  66px;
+	top: 0px;
     position: relative;
 }
 
@@ -255,7 +256,7 @@ font-family: 'OpenSans-Bold';  }
 
 @media only screen and (max-width: 990px) {
   .headerimagePC {
-    display: none
+  	display: none
   }
 
 .headertext {
@@ -269,6 +270,7 @@ font-family: 'OpenSans-Bold';  }
 
 .h2, h2 {
     font-size: 4rem !important;
+    padding: 0px 20px 0px 10px !important;
 }
 
 .col-sm-6 {
@@ -374,18 +376,18 @@ color: #004d40;
 }
 
 .middle{
-  width: 100%;
-  position: relative;
-  text-align: center;
+	width: 100%;
+	position: relative;
+	text-align: center;
   color:#B2AA8E !important;
   text-decoration: underline;
 }
 
 .middle2 {
-  width: 100%;
-  position: relative;
-  text-align: center;
-  margin-top: -50px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-top: -50px;
 }
 
 
@@ -418,7 +420,7 @@ color: #004d40;
 }
 
 .pos{
-  position: relative;
+	position: relative;
 }
 
 .oldevent {
@@ -480,7 +482,7 @@ height: 24rem;
   text-transform: uppercase;
   margin: 0;
   font-size: 2.2rem;
-  font-family: 'Jenthill', serif;
+  font-family: 'Ubuntu', serif;
   opacity: 1;
   padding: 170px 0px 10px 0px;
   color: white;
@@ -493,130 +495,4 @@ height: 24rem;
 .wijkenkaart{
   max-width: 93%;
   margin: 0px 0px 0px 50px;
-}f
-
-.middle {
-  color: black !important;
-}
-
-.bold{
-  padding: 20px 50px 0px 50px;
-  margin: 20px 50px 0px 50px;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-.checkit{
-  padding: 14px 50px 0px 50px;
-  margin: 10px 50px 0px 50px;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-.titel{
-  margin: 0;
-  font-size: 2.2rem;
-  opacity: 1;
-  color: #0C1B33 !important;
-  width: 100%;
-  padding: 10px 0px 40px 0px;
-  position: relative;
-  text-align: center;
-}
-
-.lijsttitel{
-  padding: 50px 50px 0px 50px;
-  margin: 0px 50px 0px 50px;
-  font-weight: bold;
-  font-size: 1.4rem;
-  color: #B2AA8E !important;
-}
-
-.lijsttekst{
-  padding: 14px 50px 0px 50px;
-  margin: 10px 50px 0px 50px;
-  font-size: 1.2rem;
-}
-
-.bron{
-  padding: 0px 50px 0px 50px;
-  margin: 0px 50px 0px 50px;
-  font-size: 1.2rem;
-}
-
-@media only screen and (max-width: 990px) {
-
-.bg-light {
-
-}
-.felicwrap {
-background-color: white !important;
-margin: -9rem 3rem 2rem 3rem
-}
-
-.titel{
-  margin: 0;
-  font-size: 3.6rem;
-  opacity: 1;
-  color: #0C1B33 !important;
-  width: 100%;
-  padding: 10px 0px 40px 0px;
-  position: relative;
-  text-align: center;
-}
-
-#fancy-header{
-height: 24rem;
-}
-
-.stock {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 98%;
-}
-
-.bold {
-    padding: 10px 0px 0px 0px;
-    margin: 20px 0px 0px 0px;
-    font-size: 2.5rem !important;
-}
-
-
-.checkit{
-    padding: 10px 0px 0px 0px;
-    margin: 20px 0px 0px 0px;
-  font-weight: bold;
-  font-size: 2.2rem !important;
-}
-
-#footer{
-  height:300px !important;
-}
-.footertext{
-  font-size: 2.3rem!important;
-}
-}
-
-.lijsttitel{
-    padding: 10px 0px 0px 0px;
-    margin: 20px 0px 0px 0px;
-  font-weight: bold;
-  font-size: 2.9rem !important;
-  color: #B2AA8E !important;
-}
-
-.lijsttekst{
-    padding: 10px 0px 0px 0px;
-    margin: 20px 0px 0px 0px;
-  font-size: 2.3rem !important;
-}
-
-.bron{
-    padding: 10px 0px 0px 0px;
-    margin: 20px 0px 0px 0px;
-  font-size: 2rem !important;
-}
-
-  }
 }
