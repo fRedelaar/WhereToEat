@@ -580,6 +580,7 @@ display: block;
     padding: 10px 0px 0px 0px;
     margin: 20px 0px 0px 0px;
     font-size: 2.5rem !important;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
 }
 
 
@@ -597,6 +598,10 @@ display: block;
   font-size: 2.3rem!important;
 }
 
+
+a:visited{
+color: #0C1B33 !important;
+}
 
 .lijsttitel{
     padding: 10px 0px 0px 0px;

@@ -496,3 +496,42 @@ height: 24rem;
   max-width: 93%;
   margin: 0px 0px 0px 50px;
 }
+
+@media only screen and (max-width: 990px) {
+
+.felicwrap{
+  margin: -7rem 5rem 2rem 5rem;
+}
+
+a:visited{
+color: #0C1B33 !important;
+}
+
+.headertext{
+white-space: break-spaces;
+padding: 0px 0px 0px 0px; 
+}
+
+.headertext2{
+display: none;
+}
+
+.fancy-header-text{
+  font-size: 3.3rem;
+}
+
+#footer{
+  height: 300px !important;
+}
+
+.col-sm-6 {
+  text-align: center;
+}
+
+.lijsttekst{
+      padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  font-size: 2.3rem !important;
+}
+
+}
