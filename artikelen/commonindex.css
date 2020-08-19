@@ -627,5 +627,15 @@ color: #0C1B33 !important;
     font-size: 3rem !important;
 }
 
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer !important;
+    background-color: crimson  !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: pink !important;
+    border-color: rgba(0,0,0,.1);
+}
+
   }
 }
