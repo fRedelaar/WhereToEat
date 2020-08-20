@@ -512,7 +512,7 @@ height: 24rem;
 @media only screen and (max-width: 990px) {
 
 h2{
-margin: 70px 0px 0px 0px !important;
+margin: 50px 0px 0px 0px !important;
 }
 
 .felicwrap{
@@ -553,6 +553,25 @@ display: none;
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer !important;
     background-color: #B2AA8E  !important;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1650px) {
+
+.felicwrap{
+      margin: -7rem 4rem 2rem 4rem;
+}
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+.stock{
+      width:420px;
 }
 
 
