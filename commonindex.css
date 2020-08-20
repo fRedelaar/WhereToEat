@@ -122,7 +122,7 @@ a {
     width: 533px;
     height:  300px;
     position: relative;
-    -webkit-touch-callout: none;
+    -webkit-touchc-allout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -511,6 +511,10 @@ height: 24rem;
 
 @media only screen and (max-width: 990px) {
 
+h2{
+margin: 70px 0px 0px 0px !important;
+}
+
 .felicwrap{
   margin: -7rem 5rem 2rem 5rem;
 }
@@ -545,5 +549,11 @@ display: none;
     margin: 20px 0px 0px 0px;
   font-size: 2.3rem !important;
 }
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer !important;
+    background-color: #B2AA8E  !important;
+}
+
 
 }

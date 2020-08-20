@@ -629,13 +629,9 @@ color: #0C1B33 !important;
 
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer !important;
-    background-color: crimson  !important;
+    background-color: #B2AA8E  !important;
 }
 
-.navbar-light .navbar-toggler {
-    color: pink !important;
-    border-color: rgba(0,0,0,.1);
-}
 
   }
 }
