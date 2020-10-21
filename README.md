@@ -13,3 +13,6 @@ git clone
 # Screenshots:
 ![Screenshot of the home screen](images/homepage.PNG)
 ![Screenshot of an article](images/article.PNG)
+
+**TO DO**
+There are many articles that could be written. Adding quality content to the website would make it a lot more usable. 
