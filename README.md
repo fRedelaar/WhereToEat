@@ -11,5 +11,5 @@ git clone
 ```
 
 # Screenshots:
-![Screenshot of the home screen](images/home.PNG)
+![Screenshot of the home screen](images/homepage.PNG)
 ![Screenshot of an article](images/article.PNG)
